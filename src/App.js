@@ -5,11 +5,9 @@ import {
   Form,
   FormControl,
   Button,
-  Carousel,
 } from "react-bootstrap";
 
 import './App.css';
-
 
 function Footer() {
   return (
@@ -20,7 +18,6 @@ function Footer() {
     </div>
   )
 }
-
 
 function MainContent() {
   return (
