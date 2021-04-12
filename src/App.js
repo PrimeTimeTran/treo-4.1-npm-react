@@ -6,9 +6,6 @@ import {
   FormControl,
   Button,
   Carousel,
-  Container,
-  Row,
-  Col
 } from "react-bootstrap";
 
 import './App.css';
@@ -46,51 +43,6 @@ function Treo() {
     </div>
   )
 }
-
-function CustomCarousel() {
-  return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1611095562057-2e70d5bf9dee?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=60"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1618145105713-72888e572766?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=60"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1618111415321-b406d66958de?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=60"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
-}
-
 
 // 1. Define a new component.
 
