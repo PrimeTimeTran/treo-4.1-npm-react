@@ -12,9 +12,7 @@ import './App.css';
 function Footer() {
   return (
     <div class="footer">
-      <a href="#">About</a>
-      <a href="#">Jobs</a>
-      <a href="#">For the record</a>
+      Stupid things caused error on Netlify!!1
     </div>
   )
 }
